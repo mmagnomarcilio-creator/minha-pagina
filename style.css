@@ -75,8 +75,40 @@ h1, h2, h3 {
   padding: 90px 20px 100px;
   color: var(--texto-claro);
   background:
+    url("hero-bg.svg") center / cover no-repeat,
     radial-gradient(circle at 80% 20%, rgba(201, 162, 77, 0.25), transparent 45%),
     linear-gradient(160deg, #0f1b2d 0%, #1b2f4f 100%);
+}
+
+/* Conteúdo ampliado da linha do tempo */
+.evento .detalhes h4 {
+  margin: 16px 0 4px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  color: var(--destaque-escuro);
+}
+
+.evento .detalhes p {
+  margin: 0 0 6px;
+}
+
+.evento .detalhes ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #3b4457;
+}
+
+.evento .detalhes li {
+  margin-bottom: 4px;
+}
+
+.evento .reflexao {
+  margin-top: 16px;
+  padding: 10px 14px;
+  border-left: 3px solid var(--destaque);
+  border-radius: 6px;
+  background: #faf6ea;
+  font-style: italic;
 }
 
 .etiqueta {
